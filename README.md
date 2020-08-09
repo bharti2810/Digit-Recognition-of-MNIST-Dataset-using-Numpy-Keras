@@ -16,9 +16,10 @@ Building fully operational Neural Network using NumPy and Keras and compared the
 changes mentioned above:
 H<sub>0</sub>=B
 for l in [1,2,.......,L−1]:
-	Z<sub>l</sub>=Wl.H<sub>l−1</sub>+bl
-	Hl=σ(Z<sub>l</sub>)
-	HL = softmax(WL.H<sub>L−1</sub>+b<sub>L</sub>)
+
+	* Z<sub>l</sub>=Wl.H<sub>l−1</sub>+bl
+	* Hl=σ(Z<sub>l</sub>)
+	* HL = softmax(WL.H<sub>L−1</sub>+b<sub>L</sub>)
 
 
 
