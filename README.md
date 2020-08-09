@@ -1,5 +1,6 @@
 # Digit-Recognition-of-MNIST-Dataset-using-Numpy-Keras
-Building fully operational Neural Network using NumPy and Keras and compared their performances. The steps followed to build the network 
+Built fully operational Neural Network using NumPy and Keras and compared their performances. 
+The steps followed to build the network 
 - feedforward
 - loss computation
 - backpropagation
