@@ -13,5 +13,12 @@ Building fully operational Neural Network using NumPy and Keras and compared the
 
 * There are functions assigned to different subparts of feedforward. The whole data is taken as one batch. No minibatch gradient descent is performed. The cumulative input to the layer Z<sub>l</sub>  is now a step in feedforward. The output of the last layer is denoted as H<sub>L</sub> .There are L−1 hidden layers. For each layer l, the Z<sub>l</sub> is stored as 'activation_memory' and H<sub>l−1</sub>W<sub>l</sub>,b<sub>l</sub> are stored as 'linear_memory' to use later in backpropagation.
 
+changes mentioned above:
+H<sub>0</sub>=B
+for l in [1,2,.......,L−1]:
+	Z<sub>l</sub>=Wl.H<sub>l−1</sub>+bl
+	Hl=σ(Z<sub>l</sub>)
+	HL = softmax(WL.H<sub>L−1</sub>+b<sub>L</sub>)
+
 
 
