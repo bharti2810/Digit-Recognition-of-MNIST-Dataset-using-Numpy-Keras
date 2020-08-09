@@ -22,6 +22,8 @@ The steps followed to build the network
 		* Z<sub>l</sub>=Wl.H<sub>l−1</sub>+bl
 		* Hl=σ(Z<sub>l</sub>)
 		* HL = softmax(WL.H<sub>L−1</sub>+b<sub>L</sub>)
-
+		
+#Function | #Arguments |#Returns  | #Explanation
+--- | --- | --- | --- |
 
 
